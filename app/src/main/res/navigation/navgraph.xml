@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navgraph"
+    app:startDestination="@id/calendarview">
+
+    <fragment
+        android:id="@+id/calendarview"
+        android:name="com.dhruv.accountme.ui.fragments.calendarview"
+        android:label="calendarview" >
+        <action
+            android:id="@+id/action_calendarview_to_budgetentry"
+            app:destination="@id/budgetentry" />
+    </fragment>
+    <fragment
+        android:id="@+id/budgetentry"
+        android:name="com.dhruv.accountme.ui.fragments.budgetentry"
+        android:label="budgetentry" >
+        <action
+            android:id="@+id/action_budgetentry_to_calendarview"
+            app:destination="@id/calendarview" />
+        <argument
+            android:name="selectedDate"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.dhruv.accountme.ui.fragments.PRofile"
+        android:label="profile" >
+        <action
+            android:id="@+id/action_profile_to_calendarview"
+            app:destination="@id/calendarview" />
+    </fragment>
+    <fragment
+        android:id="@+id/reports"
+        android:name="com.dhruv.accountme.ui.fragments.reports"
+        android:label="reports" />
+    <action android:id="@+id/action_global_profile" app:destination="@id/profile" />
+</navigation>
