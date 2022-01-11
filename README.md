@@ -10,7 +10,15 @@ It is always a good idea to manage your finances and we students studying in col
 This project proposes a solution of “managing and tracking one's own finances”. The app asks the user to create a profile where the user needs to enter their personal details like Name,Email, Bank Name, Initial Account Balance etc. After that, whenever the user does any transactions then he/she only needs to open the app and select the date on which the transaction was done and enter the debited or credited amount. There’s a separate tracking activity/screen for the user to track all the transactions with the label signs of red arrow showing debited and green arrow showing credited. The user can long press to know more about the expenses of the transaction. It also displays the current balance that is the amount left in the account. Lastly, if the user wants to remove a wrong record entry then the user can also delete the transaction record by swiping left or right on that particular record.
  
  ---
- 
+
+### Screenshots : 
+
+<img src = "Screenshots/Screenshot_20220111-211008.png" width = "200" height = "400" > <img src = "Screenshots/Screenshot_20220110-234113.png" width = "200" height = "400" hspace="20"> <img src = "Screenshots/Screenshot_20220110-234107.png" width = "200" height = "400">
+
+<img src = "Screenshots/Screenshot_20220110-234117.png" width = "200" height = "400" >  <img src = "Screenshots/Screenshot_20220110-234124.png" width = "200" height = "400" hspace="20"> <img src = "Screenshots/Screenshot_20220111-211018.png" width = "200" height = "400"> 
+
+---
+
 ### Functionality & Concepts used :
 
 - The App has a very simple, interactive and intuitive user experience which helps the user in tracking and managing the transactions. Following are few android concepts used to achieve the functionalities in app :
@@ -31,7 +39,7 @@ This project proposes a solution of “managing and tracking one's own finances�
 
 ---
 
-### Application Links : 
+### Application Links : [Drive Link for apk](https://drive.google.com/drive/folders/1uMAxgcYmxRncpf8cqPuwE6KFDNhAXcwD?usp=sharing)
 
 ---
 
