@@ -40,12 +40,13 @@
         app:layout_constraintStart_toEndOf="@+id/budgetItemAmount"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <ImageView
         android:id="@+id/budgetItemType"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
+        android:layout_width="33dp"
+        android:layout_height="29dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

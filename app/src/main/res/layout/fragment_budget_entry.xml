@@ -105,6 +105,7 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
         android:background="@drawable/btn_back"
+        android:backgroundTint="@color/btnColor"
         android:text="Submit Entry"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
